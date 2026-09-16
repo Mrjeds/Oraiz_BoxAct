@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+    background: #000000;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    padding: 12px;
+    gap: 12px;
+    height: 624px;
+}
+.top-section {
+    display: flex;
+    gap: 12px;
+    height: 412px; 
+}
+.middle-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 12px;
+}
+.row {
+    display: flex;
+    gap: 12px;
+    height: 200px;
+}
+.bottom-section {
+    display: flex;
+    gap: 12px;
+    height: 200px;
+}
+
+
+.box1 { background: #F2ED5A; width: 22%; height: 412px; } 
+.box2 { background: #00A99D; width: 36%; height: 200px; } 
+.box3 { background: #F2ED5A; width: 64%; height: 200px; } 
+.box4 { background: #37BF66; width: 24%; height: 412px; } 
+.box5 { background: #37BF66; width: 52%; height: 200px; } 
+.box6 { background: #7E57C2; width: 48%; height: 200px; } 
+.box7 { background: #7E57C2; width: 46.8%; height: 200px; }
+.box8 { background: #00D1E0; width: 29.2%; height: 200px; } 
+.box9 { background: #F2ED5A; width: 24%; height: 200px; } 
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="top-section">
+        <div class="box1"></div>
+        <div class="middle-col">
+            <div class="row">
+                <div class="box2"></div>
+                <div class="box3"></div>
+            </div>
+            <div class="row">
+                <div class="box5"></div>
+                <div class="box6"></div>
+            </div>
+        </div>
+        <div class="box4"></div>
+    </div>
+    <div class="bottom-section">
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="box9"></div>
+    </div>
+</div>
+
+</body>
+</html>
